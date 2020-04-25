@@ -44,4 +44,36 @@ public class Area{
 }
 ```
 
+3. Write equations for computing the area and perimeter and put set them to other variables.
+```
+public class Area{
+    public static void main(String[] args){
+          Double i =  888.0;
+          Double e = 666.0;
+          
+          Double radius = 2 * 3.14 * i;
+          Double perimeter = 3.14 * i * i;
+    }
+}
+```
+4. Print random stuff out!
+```
+public class Area{
+    public static void main(String[] args){
+          Double i =  888.0;
+          Double e = 666.0;
+          
+          Double radius = 2 * 3.14 * i;
+          Double perimeter = 3.14 * i * i;
+          
+          System.out.println(i);
+          System.out.println(e);
+          System.out.println(i);
+          System.out.println(perimeter);
+    }
+}
+```
+5. Oh Yeah! What messy code!
+
+
 
