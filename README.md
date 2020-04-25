@@ -22,6 +22,10 @@ public class Hello{
 }
 ```
 
+### The table of Contents
+Here you can see all that takes you to write trash code. From noob too professional.
+[Unit 1](unit_1.md)
+
 ### The purpose of writing trash code
 
 There are several purposes to write trash code, here's a few of them:
