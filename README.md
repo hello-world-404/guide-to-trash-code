@@ -31,10 +31,11 @@ There are several purposes to write trash code, here's a few of them:
 4. Exercise yourself to perfect your code. 
 5. Trash your code even further.
 
-### Jekyll Themes
+### Who should write Trash Code?
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/One-Kingyo/guide-to-trash-code/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Coders and programmers should learn to write Trash Code. In fact, everybody who codes should write Trash Code. 
 
-### Support or Contact
+### About us
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+This is a community project. Feel free to submit or write your guides to trash code.
+Connect with us: kirakbit@gmail.com 
