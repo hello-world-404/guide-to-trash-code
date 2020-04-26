@@ -26,7 +26,7 @@ Let's say that you are writing a program that receives the input as the radius a
 
 1. First thing you have to do is to declare the base class and method of your code. Let's first rename our file by a wrong spelling name which starts with lower cases(so that we will not be able to recognize them from methods). Since the file name was changed, let's change our class name, too.
 ```
-public class arae{
+public class area{
     public static void main(String[] args){
             
     }
@@ -35,7 +35,7 @@ public class arae{
 
 2. Declare the variables you need with meaningless variable names, or write meaningful variable names and assign them with the wrong values. 
 ```
-public class arae{
+public class area{
     public static void main(String[] args){
           Double i =  888.0;
           Double e = 666.0;
