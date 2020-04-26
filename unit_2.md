@@ -15,7 +15,7 @@ Here are some tips to help you write long and unwinded and unnecessary code that
 as the method. Then after you write your unwinded code, **do not use it** and call the method that can be replaced by that long code.
 3. If you are writing an if statement, write to check one condition in all of the branches. For example:
 
-**DO THIS**
+**DO THIS** <br>
 Look out for this line:
 ```
 password += Integer.toString((int)(Math.random() * ((9 - 0)) + 1) + 0);
@@ -38,7 +38,7 @@ public String pwGen(){
         return password;
 }
 ```
-**DON'T DO THIS**
+**DON'T DO THIS** <br>
 Look out for this line:
 ```
 password += (int)(Math.random() * ((9 - 0)) + 1) + 0;
