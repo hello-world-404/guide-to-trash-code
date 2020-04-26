@@ -15,11 +15,7 @@ Here are some tips to help you write long and unwinded and unnecessary code that
 as the method. Then after you write your unwinded code, **do not use it** and call the method that can be replaced by that long code.
 3. If you are writing an if statement, write to check one condition in all of the branches. For example:
 
-**DO THIS** <br>
-Look out for this line:
-```
-password += Integer.toString((int)(Math.random() * ((9 - 0)) + 1) + 0);
-```
+**DO THIS**
 ```
 /* The below example is a part of a password generation program.
 * The pwGen method generates a password like this: chs.0293
@@ -38,11 +34,7 @@ public String pwGen(){
         return password;
 }
 ```
-**DON'T DO THIS** <br>
-Look out for this line:
-```
-password += (int)(Math.random() * ((9 - 0)) + 1) + 0;
-```
+**DON'T DO THIS** 
 ```
 /* The below example is a part of a password generation program.
 * The pwGen method generates a password like this: chs.0293
