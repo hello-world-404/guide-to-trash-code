@@ -34,7 +34,7 @@ public String pwGen(){
         return password;
 }
 ```
-**DON'T DO THIS** 
+**DON'T DO THIS**
 ```
 /* The below example is a part of a password generation program.
 * The pwGen method generates a password like this: chs.0293
@@ -65,3 +65,76 @@ password += (int)(Math.random() * ((9 - 0)) + 1) + 0;
 The two solutions basically does the same thing, generating a number between 0 - 9
 and adding them to the variable password. But notice that the first code segment is
 slightly longer, but it does the same thing. That's long and unwinded code.
+
+Here's another example:
+
+**DO THIS**
+```
+/* The below code segment is part from a cruise price calculation program.
+* The code segment calculates the total revenue made from the cruise trip.
+* The variable signup represents the total number of people who signed up
+* for the cruise. If the number of signups is smaller than 200, then the price
+* is the same. If the number of signups is bigger than 200 and smaller than 300,
+* then everybody gets a discount of 350. If the number of signups is bigger than 300
+* then everybody gets a discount of 500
+* @author: One-Kingyo
+*/
+
+public int calculateRevenue(){
+        if(signup < 200){
+            return signup * price;
+        }
+        else if(signup >= 200 & signup < 300){
+            return (signup * price) - (signup * 350);
+        }
+        else{
+            return (signup * price) - (signup * 500);
+        }
+}
+```
+
+**DON'T DO THIS**
+```
+public int calculateRevenue(){
+       if(signup < 200){
+           return signup * price;
+       }
+       else if(signup < 300){
+           return signup * (price - 350);
+       }
+       else{
+           return signup * (price - 500);
+       }
+   }
+```
+
+In the above example, there are two parts of long and unwinded code. We
+will introduce the first part first.
+
+The long if statement is written to be:
+```
+if(signup < 200){
+
+}
+else if(signup >= 200 & signup < 300){
+
+}
+else{
+
+}
+```
+while the short code is written to be:
+```
+if(signup < 200){
+
+}
+else if(signup < 300){
+
+}
+else{
+
+}
+```
+Notice the if statement header of the else-if branch. The long code checks
+the first condition again, while the short code does not. This is a excellent
+example of long and unwinded code that can be replaced by something else. 
