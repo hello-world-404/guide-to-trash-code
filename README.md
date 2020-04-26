@@ -24,7 +24,8 @@ public class Hello{
 
 ### The table of Contents
 Here you can see all that takes you to write trash code. From noob too professional. <br>
-[Unit 1](unit_1.md)
+[Unit 1 - Start writing trash code](unit_1.md) <br>
+[Unit 2](unit_2.md) <br>
 
 ### The purpose of writing trash code
 
