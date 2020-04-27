@@ -43,7 +43,7 @@ int check = 5;
 double average = 8.0;
 ```
 
-**WARNING**
+**WARNING** <br>
 These variable declarations are semi-trash, be careful to use them.
 ```
 double avg = 3.03;
