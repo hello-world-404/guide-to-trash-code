@@ -29,7 +29,7 @@ Use random method names, like a, b, c or something like that, this naming method
 When we name variables, we should use certain names and means differently in different local methods, this can make us only need type certain names and don't need to waste time for naming new variables. For example, we can gave the name *number* to variables in different methods, though it means different things in them in different cases.
 
 Spelling is important, a misspell of term with randomly placed _ can be good. 
-For example: 
+For example: <br>
 **DO**
 ```
 String this_i_sa_go_ode_xample = "hello";
