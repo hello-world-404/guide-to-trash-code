@@ -45,3 +45,4 @@ Coders and programmers should learn to write Trash Code. In fact, everybody who 
 
 This is a community project. Feel free to submit or write your guides to trash code.
 Connect with us: kirakbit@gmail.com
+[More about us](about.md) <br>
