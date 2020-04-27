@@ -6,17 +6,9 @@ In this website, we will guide you, through a series of examples, to write trash
 Here is a short example of trash code written by Java
 
 ```
-public class Hello{
+public class ilcxk{
     public static void main(String[] args){
-         String a = "H";
-         String b = "E";
-         String c = "L";
-         String d = "L";
-         String e = "0";
-
-         String str = a + b + c + d + e;      
-
-         System.out.println(a + b + c + d + e);   
+         String("")
     }
 
 }
