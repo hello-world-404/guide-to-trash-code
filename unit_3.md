@@ -1,8 +1,8 @@
 [Go back to home page](README.md)
-## Unit 1
-The start of writing trash code
+## Unit 3
+More tips on writing quality trash code
 
-### Trash yourself
+### Tip 1——Use complicated structures
 Trashing yourself is simple and easy. Get yourself distracted, addicted to your phone, not willing to work, and forcing yourself to work makes the best Trash conditions of yourself.
 
 ### Presequites to Trash your Code

@@ -67,8 +67,6 @@ and adding them to the variable password. But notice that the first code segment
 slightly longer, but it does the same thing. That's long and unwinded code.
 
 Here's another example:
-
-**DO THIS**
 ```
 /* The below code segment is part from a cruise price calculation program.
 * The code segment calculates the total revenue made from the cruise trip.
@@ -79,6 +77,11 @@ Here's another example:
 * then everybody gets a discount of 500
 * @author: One-Kingyo
 */
+
+```
+
+**DO THIS**
+```
 
 public int calculateRevenue(){
         if(signup < 200){
@@ -137,4 +140,21 @@ else{
 ```
 Notice the if statement header of the else-if branch. The long code checks
 the first condition again, while the short code does not. This is a excellent
-example of long and unwinded code that can be replaced by something else. 
+example of long and unwinded code that can be replaced by something else.
+
+Another example in the above code is these two lines.
+
+The long way to write the total price of signups is:
+```
+  return (signup * price) - (signup * 350);
+  return (signup * price) - (signup * 500);
+
+```
+
+The short way to write the total price of signups is:
+```
+ return signup * (price - 350);
+ return signup * (price - 500);
+```
+
+Again, like the above example, both code segments do the same thing, but the first method is longer and more complicated than the shorter method. Which is trash code. 
