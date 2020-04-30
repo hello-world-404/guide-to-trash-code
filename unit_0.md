@@ -24,11 +24,11 @@ Here are the basic requirements to Trash your Code.
 
 If we want to be really trash, then you'd better start it from the idea, start from the naming of your project. Give wide name to your code files, especially the one contains the main method. A good name can be "test", "run", and other random names for this. Remember, the most basic of all: **All of your classes shall starts with lower cases and go against java-naming methods, they are just traditions that need to be overcome.**
 
-Use random method names, like a, b, c or something like that, this naming method can let you remember their order quickly and it's very simple to type in the code. Also, try to use as many same method names as what java already given us for, then we can overwrite it. *toString* is a good thing to use. We can also give the name *apple* to a variable which actually represents the value of banana. 
+Use random method names, like a, b, c or something like that, this naming method can let you remember their order quickly and it's very simple to type in the code. Also, try to use as many same method names as what java already given us for, then we can overwrite it. *toString* is a good thing to use. We can also give the name *apple* to a variable which actually represents the value of banana.
 
 When we name variables, we should use certain names and means differently in different local methods, this can make us only need type certain names and don't need to waste time for naming new variables. For example, we can gave the name *number* to variables in different methods, though it means different things in them in different cases.
 
-Spelling is important, a misspell of term with randomly placed _ can be good. 
+Spelling is important, a misspell of term with randomly placed _ can be good.
 For example: <br>
 **DO**
 ```
@@ -51,3 +51,64 @@ double cxk = 6.66;
 String hlddz = "欢乐斗地主";
 ```
 With all the naming methods above, we believe that you can give nice and confusing names for every variable, method, and class.
+
+Next, we will start with trash code structure.
+
+### Trash starts from coding strucutre
+
+As a programmer, the best thing you could do is to have your code nice and neat, but as a *TRASH* programmer, the best thing you could do is to build your trash code from
+the code structure.
+
+So **what** is code strucutre? In short terms, code structure is how you structure your code, in other words, it is how you put the different parts of your code in your editor.
+Structuring good code is easy, but strcuturing trash code is hard, so look out for the things that the things you normally do that makes your code good, not trash.
+
+**Remember, we are making all code that we write trash, not good.**
+
+Here are a few examples on trash and neat code structures.
+
+**DO**<br>
+```
+public class Hello{
+  public static void main(String[] args){
+    int x = 3;
+    for(int i = 0; i < array.length; i++){
+      x++;
+      int y = 1;
+      y++;int hey = 2;
+    }
+    int hey = 3;while(hey < 1){
+      hey++;
+    }
+  }
+}
+```
+Notice how the different code segments mash up against each other? And how different decalration statements
+are mingled with each other and placed in different places so things could be trash.
+
+**DON'T**
+```
+public class Hello{
+  public static void main(String[] args){
+    int x = 3;
+    int y = 1;
+    int hey = 2;
+
+    for(int i = 0; i < array.length; i++){
+      x++;
+      y++;
+    }
+
+    hey = 3;
+
+    while(hey < 1){
+      hey++;
+    }
+
+  }
+}
+
+```
+This code segment represents the worst code (in trash code terms) you could write. Declaring all variables in one section of
+the editor, and separating them with whitespace is the worst thing you could do (Again, in trash code terms).
+
+In the next up following chapters, we will guide you into the more deeper aspects of trash coding. 
